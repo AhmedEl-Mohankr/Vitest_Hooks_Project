@@ -8,7 +8,6 @@ it('should update the email', () => {
 
   const user = new User(testEmail);
   user.updateEmail(newTestEmail);
-//test Email should be newTestEmail.
   expect(user.email).toBe(newTestEmail);
 });
 
